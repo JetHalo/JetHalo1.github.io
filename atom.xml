@@ -2,9 +2,9 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-    <title type="text">Crpto Time</title>
+    <title type="text">Crypto Time</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2020-03-15T19:29:23+08:00</updated>
+    <updated>2020-03-18T04:37:35+08:00</updated>
     <id>https://lovingzizi.github.io/</id>
     <link rel="alternate" type="text/html" href="https://lovingzizi.github.io/" />
     <link rel="self" type="application/atom+xml" href="https://lovingzizi.github.io/atom.xml" />
@@ -17,72 +17,654 @@
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights>
     <generator uri="https://gohugo.io/" version="0.67.0">Hugo</generator>
         <entry>
-            <title type="text">Blog</title>
+            <title type="text">Explain Shamir&#39;s Secret Sharing algorithm Like I&#39;m Eleven</title>
             <link rel="alternate" type="text/html" href="https://lovingzizi.github.io/posts/blog/" />
             <id>https://lovingzizi.github.io/posts/blog/</id>
-            <updated>2020-03-15T18:23:57+08:00</updated>
+            <updated>2020-03-18T04:27:35+08:00</updated>
             <published>2020-03-15T18:23:00+08:00</published>
             <author>
                     <name>reuixiy</name>
                     <uri>https://io-oi.me/</uri>
                     <email>reuixiy@gmail.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html"><![CDATA[大标题 大标题一般显示工程名,类似html的&lt;h1&gt;
-你只要在标题下面跟上=====即可
-中标题 中标题一般显示重点项,类似html的&lt;h2&gt;
-你只要在标题下面输入&mdash;&mdash;即可
- 小标题 小标题类似html的&lt;h3&gt;
-小标题的格式如下 ### 小标题
-注意#和标题字符中间要有空格
-注意!!!下面所有语法的提示我都先用小标题提醒了!!! 单行文本框 这是一个单行的文本框,只要两个Tab再输入文字即可  多行文本框 这是一个有多行的文本框 你可以写入代码等,每行文字只要输入两个Tab再输入文字即可 这里你可以输入一段代码  比如我们可以在多行文本框里输入一段代码,来一个Java版本的HelloWorld吧 public class HelloWorld { /** * @param args  */
-public static void main(String[] args) {
-System.out.println(&ldquo;HelloWorld!&quot;);
-}
-}  链接 1.]]></summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html"><![CDATA[Whom will i give the key to ? Long long ago ,there is an old croesus who sold carpet ,the local people called &lsquo;Ala-kiyiz&rsquo; ,on the silk road .
+Because of his superb skills，his‘Ala-kiyiz&rsquo; is became the most famous goods on the silk road ,and every passing businessman will buy his carpet.]]></summary>
             
-                <content type="html"><![CDATA[<h1 id="大标题">大标题</h1>
-<p>大标题一般显示工程名,类似html的&lt;h1&gt;<br /><br>
-你只要在标题下面跟上=====即可</p>
-<h2 id="中标题">中标题</h2>
-<p>中标题一般显示重点项,类似html的&lt;h2&gt;<br /><br>
-你只要在标题下面输入&mdash;&mdash;即可</p>
-<h1 id="heading"></h1>
-<h3 id="小标题">小标题</h3>
-<p>小标题类似html的&lt;h3&gt;<br /><br>
-小标题的格式如下 ### 小标题<br /><br>
-注意#和标题字符中间要有空格</p>
-<h3 id="注意下面所有语法的提示我都先用小标题提醒了">注意!!!下面所有语法的提示我都先用小标题提醒了!!!</h3>
-<h3 id="单行文本框">单行文本框</h3>
-<pre><code>这是一个单行的文本框,只要两个Tab再输入文字即可   
-</code></pre>
-<h3 id="多行文本框">多行文本框</h3>
-<pre><code>这是一个有多行的文本框   
-你可以写入代码等,每行文字只要输入两个Tab再输入文字即可   
-这里你可以输入一段代码   
-</code></pre>
-<h3 id="比如我们可以在多行文本框里输入一段代码来一个java版本的helloworld吧">比如我们可以在多行文本框里输入一段代码,来一个Java版本的HelloWorld吧</h3>
-<pre><code>public class HelloWorld {   
-
-  /**   
-  * @param args   
-</code></pre>
-<p>*/<br>
-public static void main(String[] args) {<br>
-System.out.println(&ldquo;HelloWorld!&quot;);</p>
-<p>}</p>
-<pre><code>}   
-</code></pre>
-<h3 id="链接">链接</h3>
-<p>1.<a href="http://www.google.com">点击这里你可以链接到www.google.com</a><br /><br>
-2.[点击这里我你可以链接到我的博客](<a target=_blank href="http://blog.csdn.net/brokge"><a href="http://blog.csdn.net/brokge">http://blog.csdn.net/brokge</a></a>)<br /></p>
-<p>###只是显示图片<br>
-<img src="http://github.com/unicorn.png" alt="github" title="github"></p>
-<p>###想点击某个图片进入一个网页,比如我想点击github的icorn然后再进入www.github.com<br>
-<a href="http://www.github.com/">![image]</a><br>
-[image]: <a href="http://github.com/github.png">http://github.com/github.png</a> &ldquo;github&rdquo;</p>
-<p>————————————————
-版权声明：本文为CSDN博主「陈三哥」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/brokge/article/details/38388757</p>
+                <content type="html"><![CDATA[<p><img src="https://i.pinimg.com/originals/ad/92/34/ad923482cf958add59b453bff79503a2.jpg" alt="Old Croesus"></p>
+<h1 id="whom-will-i-give-the-key-to-">Whom will i give the key to ?</h1>
+<p>Long long ago ,there is an old croesus who sold carpet ,the local people called &lsquo;Ala-kiyiz&rsquo; ,on the silk road .</p>
+<p>Because of his superb skills，his‘Ala-kiyiz&rsquo; is became the most famous goods on the silk road ,and every passing   businessman will buy his carpet.</p>
+<p>Year after year ,he became the richest man in Bishkek.</p>
+<p>The croesus earns a huge amount of money ,and he build a castle the castle is very castiron that nobody can get in it nobody can destroy the castle.  All of his gold was stored in it.</p>
+<p>He is a good man ，he is very generous and helps a lot of poor people. But he was advanced in ages. He was burdened with worries.</p>
+<p>What was he worried about?  Actually he was worried about his gold . If he was too old to move ,how could he manage his property?</p>
+<p>The croesus has five sons.Their names are Greed ,Hatred, Stupidity, Nirvana ,Karma. Each of them has their weakness,but he didn&rsquo;t want to see the contradiction between his sons.He don&rsquo;t want one of his sons has the only key of the castle ,because some day the son, who has the only key ,perhaps take all of the money when the other sons unknowing this situation.</p>
+<p>So <strong>&ldquo;Whom will I give the key to?&quot;</strong> He confused a lot .So he asked for Afanti&rsquo;s help.</p>
+<p>Two months later, Afanti came to The croesus home again, he gave a lock to the croesus.Then he shows the lock . He says</p>
+<blockquote>
+<p>I will give you six keys ,and each tree  of these keys can open the lock of the castle together.</p>
+</blockquote>
+<p>So every time ,when they need to get into the castle ,they need at least any  three keys of these six keys together，only this method can open the castile&rsquo;s door.</p>
+<p>The croesus is very happy . And gives Afanti a lot of momney ,Afanti smiles ,and shared all of those money with poor people.</p>
+<h1 id="what-is-shamirs-secret-sharing">what is shamir&rsquo;s secret sharing?</h1>
+<p>I think you have just read about the story above. You must meet the similar situation like that in your daily life,especially you want  somebody to take care of your keywords or the passwords which is very important to you.</p>
+<p>Here is an interesting &ldquo;real-world&rdquo; example of this situation: According to <em>Time Magazine</em> ,control of nuclear weapons in russia in early 1990s depends upon a similar &ldquo;two-out-of-three&rdquo; access mechanism .The three parties involved were the President ,the Defense Minister and the Defense Ministry.</p>
+<p>So <strong>What is the shamir&rsquo;s secret sharing?</strong></p>
+<h2 id="algorithm-definiton">algorithm definiton</h2>
+<p>Shamir&rsquo;s Secret Sharing is an algorithm in cryptography created by Adi Shamir. It is a form of secret sharing, where a secret is divided into parts, giving each participant its own unique part.To reconstruct the original secret, a minimum number of parts is required. In the threshold scheme this number is less than the total number of parts. Otherwise all participants are needed to reconstruct the original secret.</p>
+<p>We first study a special type of secret sharing scheme called a threshold scheme.</p>
+<p>Here is an informal definiton.</p>
+<blockquote>
+<p><strong>Definition:</strong><br>
+Let $t,w$ positive integers,$t\leq w$.A ($t,w$)-threshold scheme is method of sharing a key K among a set of w participants(denoted by $\rho$) , in such a way that any $t$ participants can compute the value of $K$,but no group of $t-1$ participants can do so .</p>
+</blockquote>
+<p>Alright， I think you have already known the meaning of the Shamir&rsquo;s Secret Sharing. Now you may can&rsquo;t wait to ask me &ldquo;yeah ,I know the concept ,it&rsquo;s quite simple ，but could you tell me how can I implment this algrithm and how can I verify the correctness of it?&rdquo;</p>
+<h2 id="the-way-to-split-the-key-into-shares">the way to split the key into shares</h2>
+<p>According to the definition of the Shamir&rsquo;s Secret Sharing. We assum we have a secret and we want to split it into parts .How can we deal with it ? The methods below is telling us how to split the secret.</p>
+<blockquote>
+<p><em><strong>Shamir($t,w$)-Threshold Scheme</strong></em><br>
+<strong>Initialization Phase</strong><br>
+1.$D$ chooses $w$ distinct, non-zero elements of $Z_p$,denoted $x_i$,$1\leq i\leq w$（this is where we require $p\geq w+1$. For$1\leq i\leq w$ ,$D$ gives the value $x_i$ to $P_i$.The values $x_i$ are public.<br>
+<strong>Share Distribution</strong><br>
+2.Suppose $D$ wants to share a key $K\in Z_p$. $D$ secretly chooses(independently at random)$t-1$ elements of $Z_p$, which are denoted $a_1,&hellip;.a_{t-1}$.<br>
+3.For $1\leq i\leq w$ , $D$ computes $y_i=a(x_i)$, where<br>
+$$a(x)=K+\sum_{j=1}^{t-1}a_jx^jmodp$$<br>
+4.For $1\leq i\leq w$ , $D$ gives the share $y_i$ to $P_i$.</p>
+</blockquote>
+<p>It suggest us that we construct a polynomial which contain the highest degree $t-1$ and have the random coefficients .Finally the intercept of the polynomial is the Key. So $a(x)$ is the shares we just splited into .</p>
+<p>Now you have already know how to split the Key into shares . But what&rsquo;s it meaning ! Why the $a(x)$ represent the shares? What is the meaning of &ldquo;mod&rdquo;?</p>
+<p>Stop worrying！listen to me a moment！ Let us walk through the example below together ,then I will be tell you the mathematical tools we have to be known .</p>
+<hr>
+<h2 id="example-hole-progress-split-and-reconstruction">example: hole progress split and reconstruction</h2>
+<h3 id="preparation">Preparation</h3>
+<p>Suppose that our secret is 1234 $(S=1234)$.</p>
+<p>We wish to divide the secret into 6 parts $(w=6)$, where any subset of 3 parts $(t=3)$is sufficient to reconstruct the secret. At random we obtain $k-1$ numbers: 166 and 94.</p>
+<p>$(a_0=1234;a_1=166;a_2=94)$, where $a_0$ is secret</p>
+<p>Our polynomial to produce secret shares (points) is therefore:
+$a(x)=1234+166x+94x^2$</p>
+<p>We construct six points$D_{x-1}=(x, f(x))$ from the polynomial:</p>
+<p>$D_0=(1, 1494);D_1=(2, 1942);D_2=(3, 2578);  $<br>
+$D_3=(4, 3402); D_4= (5, 4414);D_5=(6, 5614),$</p>
+<p>We give each participant a different single point (both$x$ and $a(x)$. Because we use $D_{x+1}$ instead of $D_x$ the points start from $(1, a(1))$and not$(0, a(0))$. This is necessary because $a(0)$ is the secret.</p>
+<h3 id="reconstruction">Reconstruction</h3>
+<p>In order to reconstruct the secret any 3 points will be enough.</p>
+<p>Consider $\left(x_0,y_0\right)=\left(2,1942\right);\left(x_1,y_1\right)=\left(4,3402\right);\left(x_2,y_2\right)=\left(5,4414\right),$.</p>
+<p>We will compute <em>Lagrange basis polynomials</em>:</p>
+<p>$\ell_0=\frac{x-x_1}{x_0-x_1}\cdot\frac{x-x_2}{x_0-x_2}=\frac{x-4}{2-4}\cdot\frac{x-5}{2-5}=\frac{1}{6}x^2-\frac{3}{2}x+\frac{10}{3},$</p>
+<p>$\ell_1=\frac{x-x_0}{x_1-x_0}\cdot\frac{x-x_2}{x_1-x_2}=\frac{x-2}{4-2}\cdot\frac{x-5}{4-5}=-\frac{1}{2}x^2+\frac{7}{2}x-5,$</p>
+<p>$\ell_2=\frac{x-x_0}{x_2-x_0}\cdot\frac{x-x_1}{x_2-x_1}=\frac{x-2}{5-2}\cdot\frac{x-4}{5-4}=\frac{1}{3}x^2-2x+\frac{8}{3},$</p>
+<p>Therefore</p>
+<p>$ a(x) =\sum_{j=0}^2 y_j\cdot\ell_j(x) $</p>
+<p>$=y_0\ell_0+y_1\ell_1+y_2\ell_2 $</p>
+<p>$=1942\left(\frac{1}{6}x^2-\frac{3}{2}x+\frac{10}{3}\right) + 3402\left(-\frac{1}{2}x^2+\frac{7}{2}x-5\right) + 4414\left(\frac{1}{3}x^2-2x+\frac{8}{3}\right)$<br>
+$=1234+166x+94x^2$</p>
+<p>wow~ you have just get the secret (The key) from the shares which generate by the method.</p>
+<p>Recall that the secret is the free coefficient, which means that $S=1234,$, and we are done.</p>
+<hr>
+<p>But ,emm&hellip;,I did not answer the question what is the &ldquo;mod&rdquo;  ,how it can be ? its so quick ,and by the way ,what is the <em>Lagrange basis polynomials</em>?<br>
+OK next chapter I will introduce you some useful concept!</p>
+<h1 id="some-useful-mathematical-tool">some useful mathematical tool</h1>
+<p>In this chapter I will tell you tree concept <em>Galois Field</em>，<em>lagrange interpolation</em>，and <em>polynomial</em>.</p>
+<h2 id="galois-field">galois field</h2>
+<p><img src="http://totallyhistory.com/wp-content/uploads/2013/07/Evariste_galois.jpg" alt="Galois"></p>
+<blockquote>
+<p>Évariste Galois was a radical republican and something of a romantic figure in French mathematical history. He died in a duel at the young age of 20, but the work he published shortly before his death made his name in mathematical circles, and would go on to allow proofs by later mathematicians of problems which had been impossible for many centuries. It also laid the groundwork for many later developments in mathematics, particularly the beginnings of the important fields of abstract algebra and group theory.</p>
+</blockquote>
+<h2 id="what-is-field">what is field</h2>
+<blockquote>
+<p>Graphically speaking, field have such a property: they are closed in addition and multiplication. In other words, the result of adding or multiplying the elements in the field is still the elements in the field. One thing to note is that the multiplication and addition in the field is not necessarily the multiplication and addition we usually use.</p>
+</blockquote>
+<p>Field have two concepts of <em>Identity Element</em> and <em>Inverse Element</em>.<br>
+There are corresponding identity element for addition and multiplication operations (these two identity element are generally different, but both are represented by the symbol $e$). The identity element is like the identity matrix of linear algebra. A matrix multiplied by the identity matrix is ​​equal to itself. Correspondingly, the unit elements in the field are: for the addition identity element, all elements plus the identity element e are equal to itself. To the multiplication identity element, all elements are multiplied by the identity e, which is equal to itself.</p>
+<p>Inverse elements are like mathematical inverses. Two elements are each other&rsquo;s inverse element. If elements $a$ and $b$ are additive inverses, then $a + b = e$. If they are multiplicative inverses, then $a * b = e$. If element a cannot find another element $b$ in the domain such that $a + b = e (a * b = e)$,  then $a $ has no addition(multiplication) inverse.</p>
+<p>What&rsquo;s the use of inverse elements? In fact, inverses are used for division operations. In  school, teachers will teach us: dividing a fraction is equal to multiplying the inverse of the fraction . So if you want to divide by a number, you can multiply the inverse of that number.</p>
+<p>A set has addition identity elements and multiplication identity elements, and each element has an addition inverse element and a multiplication inverse element, which are necessary conditions for becoming a field. It should be noted that even if the set has element 0 and 0 has no corresponding multiplicative inverse, then the set may be a field. Because it does not require zero to have a multiplicative inverse.</p>
+<p>An example of a field is the set of rational numbers that we are familiar with. The corresponding additions and multiplications are the additions and multiplications we usually use. Among them, the identity element of the addition is 0, and the addition inverse of the rational number a is the opposite number. Because$ a + (-a) = 0$ . The identity element of multiplication is 1, and the multiplication inverse of a is its inverse. Because $a * (1 / a) = 1$. Note that element 0 here does not have a multiplicative inverse.</p>
+<h2 id="what-is-galois-field">what is galois field</h2>
+<p>In cryptography theory, the finite field GF(p) is an important field, where p is a prime number. In simple terms, GF (p) is mod p, because after a number modulo p, the result is between [0, p-1]. For elements a and b, then (a + b) mod p and (a * b) mod p, the results are all elements in the field. The addition and multiplication in GF (p) are the usual additions and multiplications. The addition and multiplication identity elements of GF (p) are 0 and 1 respectively.</p>
+<blockquote>
+<p>And now we answer the question before ,what is the meaning of $mod p$ ?  It means some number divde $p$ and the remainder is what the $ mod p $ represent.  we do this to make sure that all of these number in the field.</p>
+</blockquote>
+<p>If $p$ is prime, then it can guarantee that all elements in the field have inverses. That is, for any element $a$ in the field, another element b can always be found in the field, so that$ a * b $ mod $p $ is equal to $1$.</p>
+<h2 id="what-is-gf28">what is gf$(2^8)$</h2>
+<p>As mentioned earlier $GF(p)$, p must be a prime number to ensure that all elements in the set have addition and multiplication inverses (except 0). But we really hope that 256 numbers from 0 to 255 can also form a field. Because many fields need to be used. The remainder of $mod 256$ ranges from 0 to 255, but 256 is not a prime.</p>
+<p>It is very frustrated we can not use $GF(256)$ , how can we deal with it ?   Actually you can use $GF (2 ^ n)$.</p>
+<p>To understand $GF (2 ^ n)$, you must first understand polynomial operations. There are some differences between polynomials here and junior high school polynomial operations. Although their representations are like the same. Here are some of its features.</p>
+<ul>
+<li>The coefficients of the polynomial can only be 0 or 1. Of course, for $GF (p ^ n)$, if p is equal to 3, then the coefficient can be taken as: (0, 1, 2).</li>
+<li>When merging similar terms, the coefficients use XOR operation instead of the usual addition operation. For example, $x ^ 4 + x ^ 4$ is equal to$ 0 * x ^ 4$. Because both coefficients are 1,the result will be equal to 0 after XOR operation.</li>
+<li>It doesn&rsquo;t matter with subtraction  and negative coefficients (subtraction is equal to addition) or negative coefficients. Therefore $x ^ 4 – x ^ 4 $is equal to $x ^ 4 + x ^ 4$ . $ -x ^ 3$ is $x ^ 3$.</li>
+</ul>
+<hr>
+<h3 id="example">example</h3>
+<p>$GF(2^3) = (0, 1, x, x + 1, x^2, x^2 + 1, x^2 + 2, x^2 +x + 1)$
+$= (0, 1, 2, 2 + 1, 2^2, 2^2 + 1, 2^2 + 2, 2^2 + 2 + 1)$<br>
+$= (0, 1, 2, 3, 4, 5, 6, 7)$</p>
+<p>which consists of 2^3 = 8 elements where each of them is a polynomial of degree at most 2 evaluated at 2.</p>
+<hr>
+<p>Polynomials are also similar to integers,it has prime polynomials. Its definition is similar to prime numbers. Prime polynomials cannot be expressed as the product of two other polynomials.</p>
+<p>Galois Field is particularly useful in translating computer data as they are represented in binary forms. That is,
+computer data consist of combination of two numbers, 0 and 1, which are the components in Galois field whose number of elements is two. Representing data as a vector in a Galois Field allows mathematical operations to scramble data easily and effectively.</p>
+<p>For $GF (2 ^ 8)$, one of the prime polynomials is $x ^ 8 + x ^ 4 + x ^ 3 + x +1$. Correspondingly, there are 256 polynomials less than 8 degrees.</p>
+<p>We try to implment this Galois Field in rust.</p>
+<blockquote>
+<p>This block show the mainly the generate progress of the polynomials with the prime polynomial $x ^ 8 + x ^ 4 + x ^ 3 + x +1$.</p>
+</blockquote>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-rust" data-lang="rust"><span class="k">use</span><span class="w"> </span><span class="n">subtle</span>::<span class="p">{</span><span class="n">Choice</span><span class="p">,</span><span class="w"> </span><span class="n">ConditionallySelectable</span><span class="p">,</span><span class="w"> </span><span class="n">ConstantTimeEq</span><span class="p">};</span><span class="w">
+</span><span class="w"></span><span class="k">use</span><span class="w"> </span><span class="n">std</span>::<span class="n">ops</span>::<span class="p">{</span><span class="n">Add</span><span class="p">,</span><span class="w"> </span><span class="n">AddAssign</span><span class="p">,</span><span class="w"> </span><span class="n">Div</span><span class="p">,</span><span class="w"> </span><span class="n">DivAssign</span><span class="p">,</span><span class="w"> </span><span class="n">Mul</span><span class="p">,</span><span class="w"> </span><span class="n">MulAssign</span><span class="p">,</span><span class="w"> </span><span class="n">Neg</span><span class="p">,</span><span class="w"> </span><span class="n">Sub</span><span class="p">,</span><span class="w"> </span><span class="n">SubAssign</span><span class="p">};</span><span class="w">
+</span><span class="w"></span><span class="k">pub</span><span class="w"> </span><span class="k">struct</span> <span class="nc">GF256</span><span class="p">(</span><span class="k">pub</span><span class="w"> </span><span class="kt">u8</span><span class="p">);</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="k">impl</span><span class="w"> </span><span class="n">GF256</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w">
+</span><span class="w">    </span><span class="k">pub</span><span class="w"> </span><span class="k">fn</span> <span class="nf">pow</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="w"> </span><span class="n">elem</span>: <span class="kt">u8</span><span class="p">)</span><span class="w"> </span>-&gt; <span class="nc">Self</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w">        </span><span class="kd">let</span><span class="w"> </span><span class="k">mut</span><span class="w"> </span><span class="n">res</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">GF256</span>::<span class="n">one</span><span class="p">();</span><span class="w">
+</span><span class="w">        </span><span class="k">for</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="mi">0</span><span class="p">..</span><span class="mi">8</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w">            </span><span class="n">res</span><span class="p">.</span><span class="n">square</span><span class="p">();</span><span class="w">
+</span><span class="w">            </span><span class="kd">let</span><span class="w"> </span><span class="k">mut</span><span class="w"> </span><span class="n">tmp</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">res</span><span class="p">;</span><span class="w">
+</span><span class="w">            </span><span class="n">tmp</span><span class="p">.</span><span class="n">mul_assign</span><span class="p">(</span><span class="bp">self</span><span class="p">);</span><span class="w">
+</span><span class="w">            </span><span class="n">res</span><span class="p">.</span><span class="n">conditional_assign</span><span class="p">(</span><span class="o">&amp;</span><span class="n">tmp</span><span class="p">,</span><span class="w"> </span><span class="p">(((</span><span class="n">elem</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">i</span><span class="p">)</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="mh">0x01</span><span class="p">)</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="kt">u8</span><span class="p">).</span><span class="n">into</span><span class="p">());</span><span class="w">
+</span><span class="w">        </span><span class="p">}</span><span class="w">
+</span><span class="w">        </span><span class="n">res</span><span class="p">.</span><span class="n">conditional_assign</span><span class="p">(</span><span class="o">&amp;</span><span class="n">GF256</span>::<span class="n">one</span><span class="p">(),(</span><span class="n">elem</span><span class="p">.</span><span class="n">ct_eq</span><span class="p">(</span><span class="o">&amp;</span><span class="mi">0</span><span class="p">)).</span><span class="n">into</span><span class="p">());</span><span class="w">
+</span><span class="w">            </span><span class="n">res</span><span class="w">
+</span><span class="w">    </span><span class="p">}</span><span class="w">
+</span><span class="w"></span><span class="p">}</span><span class="w">
+</span><span class="w"></span><span class="k">impl</span><span class="w"> </span><span class="n">MulAssign</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="n">GF256</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w">    </span><span class="k">fn</span> <span class="nf">mul_assign</span><span class="p">(</span><span class="o">&amp;</span><span class="k">mut</span><span class="w"> </span><span class="bp">self</span><span class="p">,</span><span class="w"> </span><span class="n">rhs</span>: <span class="nc">GF256</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w">        </span><span class="kd">let</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="bp">self</span><span class="p">.</span><span class="mi">0</span><span class="p">;</span><span class="w">
+</span><span class="w">        </span><span class="kd">let</span><span class="w"> </span><span class="k">mut</span><span class="w"> </span><span class="n">b</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">rhs</span><span class="p">.</span><span class="mi">0</span><span class="p">;</span><span class="w">
+</span><span class="w">        </span><span class="c1">// let mut t: u8;
+</span><span class="c1"></span><span class="w">        </span><span class="bp">self</span><span class="p">.</span><span class="mi">0</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0x00</span><span class="p">;</span><span class="w">
+</span><span class="w">        </span><span class="k">for</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="mi">0</span><span class="p">..</span><span class="mi">8</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w">            </span><span class="kd">let</span><span class="w"> </span><span class="n">lsb_of_a_not_0</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">!</span><span class="p">(((</span><span class="n">a</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">i</span><span class="p">)</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="mh">0x01</span><span class="p">).</span><span class="n">ct_eq</span><span class="p">(</span><span class="o">&amp;</span><span class="mh">0x00</span><span class="p">));</span><span class="w">
+</span><span class="w">            </span><span class="bp">self</span><span class="p">.</span><span class="n">conditional_assign</span><span class="p">(</span><span class="o">&amp;</span><span class="n">GF256</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="mi">0</span><span class="w"> </span><span class="o">^</span><span class="w"> </span><span class="n">b</span><span class="p">),</span><span class="w"> </span><span class="n">lsb_of_a_not_0</span><span class="p">);</span><span class="w">
+</span><span class="w">            </span><span class="kd">let</span><span class="w"> </span><span class="n">choice</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="n">b</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="mh">0x80</span><span class="p">).</span><span class="n">ct_eq</span><span class="p">(</span><span class="o">&amp;</span><span class="mh">0x00</span><span class="p">);</span><span class="w">
+</span><span class="w">            </span><span class="n">b</span><span class="w"> </span><span class="o">&lt;&lt;=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span><span class="w">
+</span><span class="w">            </span><span class="kd">let</span><span class="w"> </span><span class="n">tmp</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">b</span><span class="w"> </span><span class="o">^</span><span class="w"> </span><span class="mh">0x1b</span><span class="p">;</span><span class="w">
+</span><span class="w">            </span><span class="n">b</span><span class="p">.</span><span class="n">conditional_assign</span><span class="p">(</span><span class="o">&amp;</span><span class="n">tmp</span><span class="p">,</span><span class="w"> </span><span class="o">!</span><span class="n">choice</span><span class="p">);</span><span class="w">
+</span><span class="w">        </span><span class="p">}</span><span class="w">
+</span><span class="w">    </span><span class="p">}</span><span class="w">
+</span><span class="w"></span><span class="p">}</span><span class="w">
+</span><span class="w">
+</span><span class="w">
+</span></code></pre></td></tr></table>
+</div>
+</div><blockquote>
+<p>Implment the Field for $GF(2^8)$</p>
+</blockquote>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-rust" data-lang="rust"><span class="k">impl</span><span class="w"> </span><span class="n">Field</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="n">GF256</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w">    </span><span class="sd">/// Returns the zero element of the field (additive identity)
+</span><span class="sd"></span><span class="w">    </span><span class="k">fn</span> <span class="nf">zero</span><span class="p">()</span><span class="w"> </span>-&gt; <span class="nc">Self</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w">        </span><span class="n">GF256</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span><span class="w">
+</span><span class="w">    </span><span class="p">}</span><span class="w">
+</span><span class="w">    </span><span class="sd">/// Returns the zero element of the field (multiplicative identity)
+</span><span class="sd"></span><span class="w">    </span><span class="k">fn</span> <span class="nf">one</span><span class="p">()</span><span class="w"> </span>-&gt; <span class="nc">Self</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w">        </span><span class="n">GF256</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span><span class="w">
+</span><span class="w">    </span><span class="p">}</span><span class="w">
+</span><span class="w">    </span><span class="sd">/// Returns true if this element is the additive identity
+</span><span class="sd"></span><span class="w">    </span><span class="k">fn</span> <span class="nf">is_zero</span><span class="p">(</span><span class="o">&amp;</span><span class="bp">self</span><span class="p">)</span><span class="w"> </span>-&gt; <span class="kt">bool</span> <span class="p">{</span><span class="w">
+</span><span class="w">        </span><span class="bp">self</span><span class="p">.</span><span class="mf">0.</span><span class="n">ct_eq</span><span class="p">(</span><span class="o">&amp;</span><span class="mi">0</span><span class="p">).</span><span class="n">into</span><span class="p">()</span><span class="w">
+</span><span class="w">    </span><span class="p">}</span><span class="w">
+</span><span class="w">    </span><span class="sd">/// Squares the element
+</span><span class="sd"></span><span class="w">    </span><span class="k">fn</span> <span class="nf">square</span><span class="p">(</span><span class="o">&amp;</span><span class="k">mut</span><span class="w"> </span><span class="bp">self</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w">        </span><span class="bp">self</span><span class="p">.</span><span class="n">mul_assign</span><span class="p">(</span><span class="o">*</span><span class="bp">self</span><span class="p">);</span><span class="w">
+</span><span class="w">    </span><span class="p">}</span><span class="w">
+</span><span class="w">    </span><span class="sd">/// Returns multiplicative inverse (self^254)
+</span><span class="sd"></span><span class="w">    </span><span class="k">fn</span> <span class="nf">inverse</span><span class="p">(</span><span class="o">&amp;</span><span class="bp">self</span><span class="p">)</span><span class="w"> </span>-&gt; <span class="nb">Option</span><span class="o">&lt;</span><span class="n">Self</span><span class="o">&gt;</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w">        </span><span class="kd">let</span><span class="w"> </span><span class="k">mut</span><span class="w"> </span><span class="n">res</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">*</span><span class="bp">self</span><span class="p">;</span><span class="w">
+</span><span class="w">        </span><span class="k">for</span><span class="w"> </span><span class="n">_</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="mi">0</span><span class="p">..</span><span class="mi">6</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w">            </span><span class="n">res</span><span class="p">.</span><span class="n">square</span><span class="p">();</span><span class="w">
+</span><span class="w">            </span><span class="n">res</span><span class="p">.</span><span class="n">mul_assign</span><span class="p">(</span><span class="o">*</span><span class="bp">self</span><span class="p">);</span><span class="w">
+</span><span class="w">        </span><span class="p">}</span><span class="w">
+</span><span class="w">        </span><span class="n">res</span><span class="p">.</span><span class="n">square</span><span class="p">();</span><span class="w">
+</span><span class="w">        </span><span class="n">res</span><span class="p">.</span><span class="n">conditional_assign</span><span class="p">(</span><span class="o">&amp;</span><span class="n">GF256</span>::<span class="n">zero</span><span class="p">(),</span><span class="w"> </span><span class="bp">self</span><span class="p">.</span><span class="mf">0.</span><span class="n">ct_eq</span><span class="p">(</span><span class="o">&amp;</span><span class="mh">0x00</span><span class="p">));</span><span class="w">
+</span><span class="w">        </span><span class="nb">Some</span><span class="p">(</span><span class="n">res</span><span class="p">)</span><span class="w">
+</span><span class="w">    </span><span class="p">}</span><span class="w">
+</span><span class="w"></span><span class="p">}</span><span class="w">
+</span><span class="w">
+</span></code></pre></td></tr></table>
+</div>
+</div><h2 id="lagrange-interpolation">lagrange interpolation</h2>
+<p>This chapter we will talk about  Why we can reconstruct the key from the K-1 degree polynomials.</p>
+<blockquote>
+<p>k points can determine a curve of  k-1 degree.</p>
+</blockquote>
+<p>Let us see how lagrange interpolation is derived.</p>
+<p>Knowing the following points, I want to find a curve passing through them:<br>
+<img src="https://pic4.zhimg.com/80/v2-1098fb223d46f919217471b527a1a7fd_1440w.jpg" alt="curve"></p>
+<p>we want the equation of this curve.<br>
+Lagrange believes that the goal can be achieved by adding three quadratic curves. So what are these three quadratic curves like?</p>
+<p>The first curve $f_1(x)$, at the $x_1$ point, the value is 1 and the remaining two points are 0:<br>
+<img src="https://pic4.zhimg.com/80/v2-c956818e984bd46c5c9f5d45f7944b3a_1440w.jpg" alt="curve"></p>
+<p>The second curve $f_2(x)$, at the $x_2$ point, the value is 1 and the remaining two points are 0:<br>
+<img src="https://pic4.zhimg.com/80/v2-c956818e984bd46c5c9f5d45f7944b3a_1440w.jpg" alt="curve"></p>
+<p>The third curve $f_3(x)$, at the $x_3$ point, the value is 1 and the remaining two points are 0:
+<img src="https://pic1.zhimg.com/80/v2-276e27d2c27f49cbdf6916468aa497ce_1440w.jpg" alt="curve"></p>
+<ul>
+<li>$y_1f_1(x)$can guarantee that at the $x_1$ point, the value is $y_1$ and the other two points are set to 0.</li>
+<li>$y_2f_2(x)$can guarantee that at the $x_2$ point, the value is $y_2$ and the other two points are set to 0.</li>
+<li>$y_3f_3(x)$can guarantee that at the $x_3$ point, the value is $y_3$ and the other two points are set to 0.</li>
+</ul>
+<p>So $$f(x)=y_1f_1(x)+y_2f_2(x)+y_3f_3(x) $$</p>
+<p>let us the the picture show us below:<br>
+<img src="https://pic1.zhimg.com/50/v2-369e7b90a0dd39b52123216e3790e1fd_hd.webp" alt="curve"></p>
+<p><strong>What an amazing thought !!!</strong></p>
+<blockquote>
+<p><strong>Definition</strong><br>
+Given a set of $k+1$ data points<br>
+$(x_0, y_0),\ldots,(x_j, y_j),\ldots,(x_k, y_k)$<br>
+where no two $x_j$ are the same, the interpolation polynomial in the Lagrange form is a linear combination.<br>
+$$L(x) = \sum_{j=0}^{k} y_j \ell_j(x)$$
+of Lagrange basis polynomials
+$\ell_j(x) = \prod_{\begin{smallmatrix}0\le m\le k \ m\neq j\end{smallmatrix}} \frac{x-x_m}{x_j-x_m} = \frac{(x-x_0)}{(x_j-x_0)} \cdots \frac{(x-x_{j-1})}{(x_j-x_{j-1})} \frac{(x-x_{j+1})}{(x_j-x_{j+1})} \cdots \frac{(x-x_k)}{(x_j-x_k)},$
+where $0\le j\le k$.</p>
+</blockquote>
+<p>Hence we have the Lagrange interpolation formula:</p>
+<blockquote>
+<p>$$p(x) = \sum_{j=1}^{n} y_j \ell_j(x)$$</p>
+</blockquote>
+<p>We can modify this form into Barycentric Form：</p>
+<blockquote>
+<p>Using<br>
+$\ell(x) = (x - x_0)(x - x_1) \cdots (x - x_k)$<br>
+we can rewrite the Lagrange basis polynomials as
+$\ell_j(x) = \ell(x)\frac{w_j}{x-x_j}$<br>
+The advantage of this representation is that the interpolation polynomial may now be evaluated as<br>
+$p(x) = \ell(x) \sum_{j=0}^k \frac{w_j}{x-x_j}y_j$</p>
+</blockquote>
+<p>Note that in the case $y_1$ = ··· = $y_n$ = 1 the interpolating polynomial must be p(x) = 1, hence<br>
+$$p(x) = \frac{\sum_{j=0}^k \frac{w_j}{x-x_j}y_j}{\sum_{j=0}^k \frac{w_j}{x-x_j}}$$</p>
+<p>The algrithm is following :</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-rust" data-lang="rust"><span class="k">pub</span><span class="w"> </span><span class="k">fn</span> <span class="nf">barycentric_interpolate</span><span class="o">&lt;</span><span class="n">Fq</span>: <span class="nc">Field</span><span class="o">&gt;</span><span class="p">(</span><span class="n">points</span>: <span class="kp">&amp;</span><span class="p">[(</span><span class="n">Fq</span><span class="p">,</span><span class="w"> </span><span class="n">Fq</span><span class="p">)])</span><span class="w"> </span>-&gt; <span class="nc">Fq</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w">    </span><span class="kd">let</span><span class="w"> </span><span class="k">mut</span><span class="w"> </span><span class="n">result</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Fq</span>::<span class="n">zero</span><span class="p">();</span><span class="w">
+</span><span class="w">    </span><span class="kd">let</span><span class="w"> </span><span class="k">mut</span><span class="w"> </span><span class="n">result_demon</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Fq</span>::<span class="n">zero</span><span class="p">();</span><span class="w">
+</span><span class="w">    </span><span class="kd">let</span><span class="w">  </span><span class="n">_l_x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Fq</span>::<span class="n">one</span><span class="p">();</span><span class="w">
+</span><span class="w">    </span><span class="kd">let</span><span class="w"> </span><span class="k">mut</span><span class="w"> </span><span class="n">w</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">Vec</span>::<span class="n">with_capacity</span><span class="p">(</span><span class="n">points</span><span class="p">.</span><span class="n">len</span><span class="p">());</span><span class="w">
+</span><span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="n">j</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="mi">0</span><span class="p">..</span><span class="n">points</span><span class="p">.</span><span class="n">len</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w">        </span><span class="kd">let</span><span class="w"> </span><span class="n">x_j</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">points</span><span class="p">[</span><span class="n">j</span><span class="p">].</span><span class="mi">0</span><span class="p">;</span><span class="w">
+</span><span class="w">        </span><span class="n">w</span><span class="p">.</span><span class="n">push</span><span class="p">(</span><span class="n">Fq</span>::<span class="n">one</span><span class="p">());</span><span class="w">
+</span><span class="w">
+</span><span class="w">        </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">k</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="p">(</span><span class="n">x_k</span><span class="p">,</span><span class="w"> </span><span class="n">_</span><span class="p">))</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="n">points</span><span class="p">.</span><span class="n">iter</span><span class="p">().</span><span class="n">enumerate</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w">            </span><span class="k">if</span><span class="w"> </span><span class="n">j</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="n">k</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w">                </span><span class="kd">let</span><span class="w"> </span><span class="n">denom</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">x_j</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">x_k</span><span class="p">;</span><span class="w">
+</span><span class="w">                </span><span class="n">w</span><span class="p">[</span><span class="n">j</span><span class="p">]</span><span class="w"> </span><span class="o">*=</span><span class="w"> </span><span class="n">Fq</span>::<span class="n">one</span><span class="p">()</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="n">denom</span><span class="p">;</span><span class="w">
+</span><span class="w">            </span><span class="p">}</span><span class="w">
+</span><span class="w">        </span><span class="p">}</span><span class="w">
+</span><span class="w">    </span><span class="p">}</span><span class="w">
+</span><span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">j</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="p">(</span><span class="n">x_j</span><span class="p">,</span><span class="w"> </span><span class="n">y_j</span><span class="p">))</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="n">points</span><span class="p">.</span><span class="n">iter</span><span class="p">().</span><span class="n">enumerate</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w">        </span><span class="n">result</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="p">(</span><span class="n">w</span><span class="p">[</span><span class="n">j</span><span class="p">]</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">y_j</span><span class="p">)</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="o">-</span><span class="n">x_j</span><span class="p">;</span><span class="w">
+</span><span class="w">        </span><span class="n">result_demon</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="n">w</span><span class="p">[</span><span class="n">j</span><span class="p">]</span><span class="o">/-</span><span class="n">x_j</span><span class="p">;</span><span class="w">
+</span><span class="w">    </span><span class="p">}</span><span class="w">
+</span><span class="w">    </span><span class="n">result</span><span class="w"> </span><span class="o">/=</span><span class="w">  </span><span class="n">result_demon</span><span class="p">;</span><span class="w">
+</span><span class="w">    </span><span class="n">result</span><span class="w">
+</span><span class="w"></span><span class="p">}</span><span class="w">
+</span><span class="w">
+</span><span class="w">
+</span></code></pre></td></tr></table>
+</div>
+</div><h2 id="多项式的实现">多项式的实现</h2>
+<h2 id="polynomial">polynomial</h2>
+<p>Given a polynomial of the form $c_nx^n + c_n-1x^n-1 + c_n-2x^n-2 + … + c_1x + c_0$ and a value of$ x$, find the value of polynomial for a given value of $x$. Here $c_n, c_n-1, ..$ are integers (may be negative) and $n$ is a positive integer.</p>
+<p>Input is in the form of an array say poly[] where poly[0] represents coefficient for $x_n$ and poly[1] represents coefficient for xn-1 and so on.
+so the code is below :</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-rust" data-lang="rust"><span class="cp">#[derive(PartialEq, Debug)]</span><span class="w">
+</span><span class="w"></span><span class="k">pub</span><span class="w"> </span><span class="k">struct</span> <span class="nc">Polynomial</span><span class="o">&lt;</span><span class="n">Fq</span>: <span class="nc">Field</span><span class="o">&gt;</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w">   </span><span class="n">coefficients</span>: <span class="nb">Vec</span><span class="o">&lt;</span><span class="n">Fq</span><span class="o">&gt;</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="p">}</span><span class="w">
+</span><span class="w"></span><span class="k">impl</span><span class="o">&lt;</span><span class="n">Fq</span>: <span class="nc">Field</span><span class="o">&gt;</span><span class="w"> </span><span class="n">Polynomial</span><span class="o">&lt;</span><span class="n">Fq</span><span class="o">&gt;</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w">   </span><span class="sd">/// Generates a polynomial with random coefficients and a given intercept
+</span><span class="sd"></span><span class="w">   </span><span class="k">pub</span><span class="w"> </span><span class="k">fn</span> <span class="nf">from_intercept</span><span class="p">(</span><span class="n">intercept</span>: <span class="nc">Fq</span><span class="p">,</span><span class="w"> </span><span class="n">degree</span>: <span class="kt">usize</span><span class="p">)</span><span class="w"> </span>-&gt; <span class="nc">Polynomial</span><span class="o">&lt;</span><span class="n">Fq</span><span class="o">&gt;</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w">       </span><span class="kd">let</span><span class="w"> </span><span class="k">mut</span><span class="w"> </span><span class="n">result</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">Vec</span>::<span class="n">with_capacity</span><span class="p">(</span><span class="n">degree</span><span class="p">);</span><span class="w">
+</span><span class="w">       </span><span class="kd">let</span><span class="w">  </span><span class="n">fq</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Fq</span>::<span class="n">gen_random</span><span class="p">();</span><span class="w">
+</span><span class="w">       </span><span class="k">for</span><span class="w"> </span><span class="n">_</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="mi">1</span><span class="p">..</span><span class="n">degree</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w">           </span><span class="n">result</span><span class="p">.</span><span class="n">push</span><span class="p">(</span><span class="n">fq</span><span class="p">);</span><span class="w">
+</span><span class="w">       </span><span class="p">}</span><span class="w">
+</span><span class="w">       </span><span class="n">result</span><span class="p">.</span><span class="n">push</span><span class="p">(</span><span class="n">intercept</span><span class="p">);</span><span class="w">
+</span><span class="w">       </span><span class="n">Polynomial</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w">           </span><span class="n">coefficients</span>: <span class="nc">result</span><span class="w">
+</span><span class="w">       </span><span class="p">}</span><span class="w">
+</span><span class="w">   </span><span class="p">}</span><span class="w">
+</span><span class="w">   </span><span class="sd">/// Evaluates a Polynomial with coefficients in field Fq at a given x value
+</span><span class="sd"></span><span class="w">   </span><span class="k">pub</span><span class="w"> </span><span class="k">fn</span> <span class="nf">evaluate_at</span><span class="p">(</span><span class="o">&amp;</span><span class="bp">self</span><span class="p">,</span><span class="w"> </span><span class="n">x</span>: <span class="nc">Fq</span><span class="p">)</span><span class="w"> </span>-&gt; <span class="nc">Fq</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w">
+</span><span class="w">       </span><span class="bp">self</span><span class="p">.</span><span class="n">coefficients</span><span class="w">
+</span><span class="w">           </span><span class="p">.</span><span class="n">iter</span><span class="p">()</span><span class="w">
+</span><span class="w">           </span><span class="p">.</span><span class="n">skip</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span><span class="w">
+</span><span class="w">           </span><span class="p">.</span><span class="n">fold</span><span class="p">(</span><span class="o">*</span><span class="bp">self</span><span class="p">.</span><span class="n">coefficients</span><span class="p">.</span><span class="n">first</span><span class="p">().</span><span class="n">unwrap</span><span class="p">(),</span><span class="w"> </span><span class="o">|</span><span class="n">result</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="n">a_i</span><span class="o">|</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w">               </span><span class="n">a_i</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="p">(</span><span class="n">result</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">x</span><span class="p">)</span><span class="w">
+</span><span class="w">           </span><span class="p">})</span><span class="w">
+</span><span class="w">   </span><span class="p">}</span><span class="w">
+</span><span class="w"></span><span class="p">}</span><span class="w">
+</span></code></pre></td></tr></table>
+</div>
+</div><h1 id="overview-the-algrithm-again">overview the algrithm again</h1>
+<p>we have already get the concept of the required knowlege of the mathematical tools and the code of them .<br>
+Now we begin try to code the step of the algrithm of Shamir&rsquo;s Secret Sharing :</p>
+<blockquote>
+<p>Represents a set of points which make up a share of a secret.</p>
+</blockquote>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span><span class="lnt">51
+</span><span class="lnt">52
+</span><span class="lnt">53
+</span><span class="lnt">54
+</span><span class="lnt">55
+</span><span class="lnt">56
+</span><span class="lnt">57
+</span><span class="lnt">58
+</span><span class="lnt">59
+</span><span class="lnt">60
+</span><span class="lnt">61
+</span><span class="lnt">62
+</span><span class="lnt">63
+</span><span class="lnt">64
+</span><span class="lnt">65
+</span><span class="lnt">66
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-rust" data-lang="rust"><span class="k">pub</span><span class="w"> </span><span class="k">struct</span> <span class="nc">Share</span><span class="o">&lt;</span><span class="n">Fq</span>: <span class="nc">Field</span><span class="o">&gt;</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w">    </span><span class="n">points</span>: <span class="nb">Vec</span><span class="o">&lt;</span><span class="p">(</span><span class="n">Fq</span><span class="p">,</span><span class="w"> </span><span class="n">Fq</span><span class="p">)</span><span class="o">&gt;</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="p">}</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="sd">/// A set of functions for Shamir Secret Sharing
+</span><span class="sd"></span><span class="k">pub</span><span class="w"> </span><span class="k">struct</span> <span class="nc">Shamir</span><span class="p">;</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="k">impl</span><span class="w"> </span><span class="n">Shamir</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w">    </span><span class="sd">/// separate a secret (a byte slice) into n shares, of which only k are needed to recover the secret
+</span><span class="sd"></span><span class="w">    </span><span class="sd">/// This requires 0 &lt; k &lt;= n &lt; 256 and supports arbitrary sized secrets
+</span><span class="sd"></span><span class="w">    </span><span class="sd">/// We define a function that separare the secret into n shares ,secret is its length and its a u8 bytes slice .
+</span><span class="sd"></span><span class="w">    </span><span class="k">pub</span><span class="w"> </span><span class="k">fn</span> <span class="nf">separate</span><span class="p">(</span><span class="n">secret</span>: <span class="kp">&amp;</span><span class="p">[</span><span class="kt">u8</span><span class="p">],</span><span class="w"> </span><span class="n">k</span>: <span class="kt">usize</span><span class="p">,</span><span class="w"> </span><span class="n">n</span>: <span class="kt">usize</span><span class="p">)</span><span class="w"> </span>-&gt; <span class="nb">Result</span><span class="o">&lt;</span><span class="nb">Vec</span><span class="o">&lt;</span><span class="n">Share</span><span class="o">&lt;</span><span class="n">GF256</span><span class="o">&gt;&gt;</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="nb">&#39;static</span><span class="w"> </span><span class="kt">str</span><span class="o">&gt;</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w">      </span><span class="c1">// This block to make sure the the range of k and n is correct,because the definition of 
+</span><span class="c1"></span><span class="w">      </span><span class="c1">//Shamir secret is  a secret which seprate into n shares ,and k of the n shares (k&lt;n)could recover
+</span><span class="c1"></span><span class="w">      </span><span class="c1">// the secret and at the the same time we define this n shares size between 1 to 255.
+</span><span class="c1"></span><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="mi">255</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w">            </span><span class="k">return</span><span class="w"> </span><span class="nb">Err</span><span class="p">(</span><span class="s">&#34;n must be between 1 and 255&#34;</span><span class="p">);</span><span class="w">
+</span><span class="w">        </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="n">k</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="n">k</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w">            </span><span class="k">return</span><span class="w"> </span><span class="nb">Err</span><span class="p">(</span><span class="s">&#34;k must be between 1 and n&#34;</span><span class="p">);</span><span class="w">
+</span><span class="w">        </span><span class="p">}</span><span class="w">
+</span><span class="w">        </span><span class="c1">// Here define the shares in a vector which have an empty heap but has n capacity.And the type
+</span><span class="c1"></span><span class="w">        </span><span class="c1">//of the shares are Galois field 2^8.
+</span><span class="c1"></span><span class="w">        </span><span class="kd">let</span><span class="w"> </span><span class="k">mut</span><span class="w"> </span><span class="n">shares</span>: <span class="nb">Vec</span><span class="o">&lt;</span><span class="n">Share</span><span class="o">&lt;</span><span class="n">GF256</span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">Vec</span>::<span class="n">with_capacity</span><span class="p">(</span><span class="n">n</span><span class="p">);</span><span class="w">
+</span><span class="w">        </span><span class="c1">//make every share contains the points which the amount of it is same as the secret length.
+</span><span class="c1"></span><span class="w">        </span><span class="k">for</span><span class="w"> </span><span class="n">_</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="mi">0</span><span class="p">..</span><span class="n">n</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w">            </span><span class="n">shares</span><span class="p">.</span><span class="n">push</span><span class="p">(</span><span class="n">Share</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w">                </span><span class="n">points</span>: <span class="nb">Vec</span>::<span class="n">with_capacity</span><span class="p">(</span><span class="n">secret</span><span class="p">.</span><span class="n">len</span><span class="p">()),</span><span class="w">
+</span><span class="w">            </span><span class="p">});</span><span class="w">
+</span><span class="w">        </span><span class="p">}</span><span class="w">
+</span><span class="w">         </span><span class="c1">// define a  Hashset collection  name point_set ，this point set help us to make sure the
+</span><span class="c1"></span><span class="w">         </span><span class="c1">//random byte is not repeated.
+</span><span class="c1"></span><span class="w">        </span><span class="kd">let</span><span class="w"> </span><span class="k">mut</span><span class="w"> </span><span class="n">point_set</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">std</span>::<span class="n">collections</span>::<span class="n">HashSet</span>::<span class="n">new</span><span class="p">();</span><span class="w">
+</span><span class="w">        </span><span class="c1">// this progress use the methods from_intercept in mod polynomial  to gennerate the coeffients 
+</span><span class="c1"></span><span class="w">        </span><span class="c1">// of the Polynomial.and its a for loop to generate each points of every share in n shares.
+</span><span class="c1"></span><span class="w">        </span><span class="k">for</span><span class="w"> </span><span class="o">&amp;</span><span class="n">secret_byte</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="n">secret</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w">            </span><span class="c1">//we construct the polynomial that is k degree function which has a intercept made by the element of the secret.
+</span><span class="c1"></span><span class="w">            </span><span class="c1">//this fuction return the coeffients and the intercept
+</span><span class="c1"></span><span class="w">            </span><span class="kd">let</span><span class="w"> </span><span class="n">polynomial</span>: <span class="nc">Polynomial</span><span class="o">&lt;</span><span class="n">GF256</span><span class="o">&gt;</span><span class="w"> </span><span class="o">=</span><span class="w">
+</span><span class="w">                </span><span class="n">Polynomial</span>::<span class="n">from_intercept</span><span class="p">(</span><span class="n">GF256</span><span class="p">(</span><span class="n">secret_byte</span><span class="p">),</span><span class="w"> </span><span class="n">k</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">1</span><span class="p">);</span><span class="w">
+</span><span class="w">              </span><span class="c1">//  to verify no random byte is repeated  
+</span><span class="c1"></span><span class="w">            </span><span class="k">for</span><span class="w"> </span><span class="n">share</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="n">shares</span><span class="p">.</span><span class="n">iter_mut</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w">                </span><span class="c1">// genarate byte randomly 
+</span><span class="c1"></span><span class="w">                </span><span class="kd">let</span><span class="w"> </span><span class="k">mut</span><span class="w"> </span><span class="n">random_byte</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">thread_rng</span><span class="p">().</span><span class="n">gen</span>::<span class="o">&lt;</span><span class="kt">u8</span><span class="o">&gt;</span><span class="p">();</span><span class="w">
+</span><span class="w">                </span><span class="c1">//if point_set contains the random_byte already or it generate o,we should regenarate the random_byte
+</span><span class="c1"></span><span class="w">                </span><span class="k">while</span><span class="w"> </span><span class="n">point_set</span><span class="p">.</span><span class="n">contains</span><span class="p">(</span><span class="o">&amp;</span><span class="n">random_byte</span><span class="p">)</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="n">random_byte</span><span class="p">.</span><span class="n">ct_eq</span><span class="p">(</span><span class="o">&amp;</span><span class="mi">0</span><span class="p">).</span><span class="n">into</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w">                    </span><span class="n">random_byte</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">thread_rng</span><span class="p">().</span><span class="n">gen</span>::<span class="o">&lt;</span><span class="kt">u8</span><span class="o">&gt;</span><span class="p">();</span><span class="w">
+</span><span class="w">                </span><span class="p">}</span><span class="w">
+</span><span class="w">                </span><span class="c1">//we insert the random_byte we had genarated into the point_set which is the type of hashset.
+</span><span class="c1"></span><span class="w">                </span><span class="n">point_set</span><span class="p">.</span><span class="n">insert</span><span class="p">(</span><span class="n">random_byte</span><span class="p">);</span><span class="w">
+</span><span class="w">                 </span><span class="c1">//put the random_byte into struct GF256 to genarate the  horizontal axis of the points.
+</span><span class="c1"></span><span class="w">                 </span><span class="c1">//because this is a for loop of shares ,so end of this loop,it will generate n x for the each poins of n shares first.
+</span><span class="c1"></span><span class="w">                </span><span class="kd">let</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">GF256</span><span class="p">(</span><span class="n">random_byte</span><span class="p">);</span><span class="w">
+</span><span class="w">                </span><span class="c1">// use the funcion evaluate to caculate the vertical axis of the points in the random genarate polymonimal
+</span><span class="c1"></span><span class="w">                </span><span class="kd">let</span><span class="w"> </span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">polynomial</span><span class="p">.</span><span class="n">evaluate_at</span><span class="p">(</span><span class="n">x</span><span class="p">);</span><span class="w">
+</span><span class="w">                </span><span class="c1">//push the points into the shares collection.
+</span><span class="c1"></span><span class="w">                </span><span class="c1">//then they became the firt element of the share ,when the first time of the for loop ended it will 
+</span><span class="c1"></span><span class="w">                </span><span class="c1">// generate the first element of each of the n shares.
+</span><span class="c1"></span><span class="w">                </span><span class="n">share</span><span class="p">.</span><span class="n">points</span><span class="p">.</span><span class="n">push</span><span class="p">((</span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="p">));</span><span class="w">
+</span><span class="w">            </span><span class="p">}</span><span class="w">
+</span><span class="w">            </span><span class="c1">//clear the point_set 
+</span><span class="c1"></span><span class="w">            </span><span class="n">point_set</span><span class="p">.</span><span class="n">clear</span><span class="p">();</span><span class="w">
+</span><span class="w">        </span><span class="p">}</span><span class="w">
+</span><span class="w">        </span><span class="c1">//return the shares
+</span><span class="c1"></span><span class="w">        </span><span class="nb">Ok</span><span class="p">(</span><span class="n">shares</span><span class="p">)</span><span class="w">
+</span><span class="w">    </span><span class="p">}</span><span class="w">
+</span><span class="w">
+</span></code></pre></td></tr></table>
+</div>
+</div><blockquote>
+<p>Combines a slice of shares to recover the secret which is returned as a vector of bytes.</p>
+</blockquote>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-rust" data-lang="rust"><span class="w">    </span><span class="k">pub</span><span class="w"> </span><span class="k">fn</span> <span class="nf">recover</span><span class="p">(</span><span class="n">shares</span>: <span class="kp">&amp;</span><span class="p">[</span><span class="n">Share</span><span class="o">&lt;</span><span class="n">GF256</span><span class="o">&gt;</span><span class="p">])</span><span class="w"> </span>-&gt; <span class="nb">Vec</span><span class="o">&lt;</span><span class="kt">u8</span><span class="o">&gt;</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w">        </span><span class="c1">// define the length of the generated points we will use to combine to.
+</span><span class="c1"></span><span class="w">        </span><span class="kd">let</span><span class="w"> </span><span class="n">secret_size</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">shares</span><span class="p">.</span><span class="n">first</span><span class="p">().</span><span class="n">unwrap</span><span class="p">().</span><span class="n">points</span><span class="p">.</span><span class="n">len</span><span class="p">();</span><span class="w">
+</span><span class="w">        </span><span class="c1">//define the capacity of the result which is recoverd by the methods.
+</span><span class="c1"></span><span class="w">        </span><span class="kd">let</span><span class="w"> </span><span class="k">mut</span><span class="w"> </span><span class="n">result</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">Vec</span>::<span class="n">with_capacity</span><span class="p">(</span><span class="n">secret_size</span><span class="p">);</span><span class="w">
+</span><span class="w">         </span><span class="c1">//we map the shares and rebuild the construct such as
+</span><span class="c1"></span><span class="w">         </span><span class="c1">// {Element0[&lt;point1&lt;x,y&gt;,point2&lt;x,y&gt;..pointn&lt;x,y&gt;]...Elementsize[&lt;point1&lt;x,y&gt;,point2&lt;x,y&gt;..pointn&lt;x,y&gt;]}
+</span><span class="c1"></span><span class="w">        </span><span class="k">for</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="mi">0</span><span class="p">..</span><span class="n">secret_size</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w">            </span><span class="kd">let</span><span class="w"> </span><span class="n">points</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">shares</span><span class="w">
+</span><span class="w">                </span><span class="p">.</span><span class="n">iter</span><span class="p">()</span><span class="w">
+</span><span class="w">                </span><span class="p">.</span><span class="n">map</span><span class="p">(</span><span class="o">|</span><span class="n">share</span><span class="o">|</span><span class="w"> </span><span class="n">share</span><span class="p">.</span><span class="n">points</span><span class="p">[</span><span class="n">i</span><span class="p">])</span><span class="w">
+</span><span class="w">                </span><span class="p">.</span><span class="n">collect</span>::<span class="o">&lt;</span><span class="nb">Vec</span><span class="o">&lt;</span><span class="p">(</span><span class="n">GF256</span><span class="p">,</span><span class="w"> </span><span class="n">GF256</span><span class="p">)</span><span class="o">&gt;&gt;</span><span class="p">();</span><span class="w">
+</span><span class="w">        </span><span class="c1">//use the  x value of these points and barycentric lagrange interpolation to recover the origin each bytes of the secret.
+</span><span class="c1"></span><span class="w">            </span><span class="kd">let</span><span class="w"> </span><span class="n">secret_byte</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">barycentric_interpolate</span><span class="p">(</span><span class="o">&amp;</span><span class="n">points</span><span class="p">);</span><span class="w">
+</span><span class="w">            </span><span class="n">result</span><span class="p">.</span><span class="n">push</span><span class="p">(</span><span class="n">secret_byte</span><span class="p">.</span><span class="mi">0</span><span class="p">);</span><span class="w">
+</span><span class="w">        </span><span class="p">}</span><span class="w">
+</span><span class="w">        </span><span class="c1">//return the secret.
+</span><span class="c1"></span><span class="w">        </span><span class="n">result</span><span class="w">
+</span><span class="w">    </span><span class="p">}</span><span class="w">
+</span><span class="w"></span><span class="p">}</span><span class="w">
+</span></code></pre></td></tr></table>
+</div>
+</div><p><em><strong>This is all the knowledge and steps of Shamir‘s secret sharing algrithm .Thank you for reading .</strong></em></p>
 ]]></content>
             
             
